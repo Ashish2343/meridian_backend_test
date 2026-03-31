@@ -2,7 +2,7 @@ import { createServer } from "http";
 import { Server } from "socket.io";
 
 const PORT = process.env.PORT || 3001;
-const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:3000";
+const FRONTEND_URL = process.env.FRONTEND_URL || "https://meridian-test-zwwm.vercel.app/";
 
 // 1️⃣ Plain HTTP server (NO Next.js here)
 const httpServer = createServer();
