@@ -7,7 +7,7 @@ const FRONTEND_URL = process.env.FRONTEND_URL || 3000;
 // 1️⃣ Plain HTTP server (NO Next.js here)
 const httpServer = createServer();
 
-// 2️⃣ Attach Socket.IO to raw server
+// 2️⃣ Attach Socket.IO to raw servern
 const io = new Server(httpServer, {
   cors: {
     origin: FRONTEND_URL,
